@@ -9,6 +9,7 @@
 2. Take a brief moment to set up the project as needed per your normal working style and tooling approach.
 3. Run the application to confirm everything is setup appropriately. 
 The app should start up without error using the command `./mvnw spring-boot:run` or use your own startup steps and configuration.
+   * The `/hello` endpoint should return a JSON response if the application started correctly.
 4. Add the classes and structures needed to enable a new API endpoint for books. 
 Talk through the steps you are taking with your interviewer(s).
 A book should have at least the following fields: Title, Author, Year Published.
